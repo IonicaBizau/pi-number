@@ -1,5 +1,7 @@
+![PI Number](http://i.imgur.com/YWOBFeY.png)
+
 # PI Number
-Going deeper inside of the PI number.
+Going deeper inside of the PI number. Get the first *n* decimals of the PI number.
 
 ## Installation
 Run the following commands to download and install the application:
