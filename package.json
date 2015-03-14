@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Going deeper inside of the PI number.",
   "main": "lib/index.js",
+  "bin": {
+      "pi": "./bin/pi"
+  },
   "scripts": {
     "test": "node test"
   },
