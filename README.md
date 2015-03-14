@@ -46,6 +46,9 @@ Calculates the first *n* decimals of PI number.
 #### Return
 - **String** The PI decimals.
 
+## Credits
+This algorithm is highly based on [this great answer from StackOverflow](http://stackoverflow.com/a/11679372/1420197). Thanks! :smile:
+
 ## How to contribute
 1. File an issue in the repository, using the bug tracker, describing the
    contribution you'd like to make. This will help us to get you started on the
