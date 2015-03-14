@@ -1,8 +1,8 @@
+// Dependencies
 var PI = require("../lib");
 
-// Two decimals
-console.log("3." + PI(3));
-console.log("3." + PI(16));
+// Three decimals
+console.log(PI(3));
 
-// 100 decimals
-console.log("3." + PI(1000));
+// 16 decimals
+console.log("First 16 decimals: " + PI(16, false));

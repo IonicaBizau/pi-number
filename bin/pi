@@ -3,4 +3,4 @@
 // Dependencies
 var PI= require("../lib")
 
-console.log("3." + PI(process.argv[2]));
+console.log(PI(parseInt(process.argv[2])));
