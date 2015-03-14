@@ -1,0 +1,24 @@
+{
+  "name": "pi-number",
+  "version": "1.0.0",
+  "description": "Going deeper inside of the PI number.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/pi-number.git"
+  },
+  "keywords": [
+    "pi",
+    "number",
+    "math"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/pi-number/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/pi-number"
+}
