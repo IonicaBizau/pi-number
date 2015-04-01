@@ -1,5 +1,5 @@
 {
-  "name": "pi-number",
+  "name": "pi",
   "version": "1.0.0",
   "description": "Going deeper inside of the PI number.",
   "main": "lib/index.js",

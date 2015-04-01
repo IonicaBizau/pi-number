@@ -7,7 +7,7 @@ Going deeper inside of the PI number. Get the first *n* decimals of the PI numbe
 Run the following commands to download and install the application:
 
 ```sh
-$ npm install -g pi-number
+$ npm install -g pi
 ```
 
 Usage:
@@ -21,7 +21,7 @@ $ pi 16
 
 ```js
 // Dependencies
-var PI = require("pi-number");
+var PI = require("pi");
 
 // Three decimals
 console.log(PI(3));
