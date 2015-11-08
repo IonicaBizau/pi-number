@@ -1,65 +1,60 @@
-![PI Number](http://i.imgur.com/YWOBFeY.png)
+# `$ pi` [![Support this project][donate-now]][paypal-donations]
 
-# PI Number
-Going deeper inside of the PI number. Get the first *n* decimals of the PI number.
+Going deeper inside of the PI number.
 
 ## Installation
-Run the following commands to download and install the application:
+
+You can install the package globally and use it as command line tool:
 
 ```sh
-$ npm install -g pi
+$ npm i -g pi
 ```
 
-Usage:
+Then, run `pi --help` and see what the CLI tool can do.
 
 ```sh
-$ pi 16
-3.141592653589793
+$ pi --help
+3.
 ```
 
 ## Example
+
+Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
+
+```sh
+$ npm i pi
+```
 
 ```js
 // Dependencies
 var PI = require("pi");
 
-// Three decimals
 console.log(PI(3));
+// => 3.14
 
-// 16 decimals
 console.log("First 16 decimals: " + PI(16, false));
-```
-
-Output:
-
-```sh
-3.14
-First 16 decimals: 141592653589793
+// => First 16 decimals: 141592653589793
 ```
 
 ## Documentation
-### `PI(digits, includeThree)`
-Calculates the first *n* decimals of PI number.
 
-#### Params
-- **Number** `digits`: The number of decimals of the PI number.
-- **Boolean** `includeThree`: A flag indicating if the `"3."` snippet should be prepended or not (default: `true`).
-
-#### Return
-- **String** The PI decimals.
-
-## Credits
-This algorithm is highly based on [this great answer from StackOverflow](http://stackoverflow.com/a/11679372/1420197). Thanks! :smile:
+For full API reference, see the [DOCUMENTATION.md][docs] file.
 
 ## How to contribute
-1. File an issue in the repository, using the bug tracker, describing the
-   contribution you'd like to make. This will help us to get you started on the
-   right foot.
-2. Fork the project in your account and create a new branch:
-   `your-great-feature`.
-3. Commit your changes in that branch.
-4. Open a pull request, and reference the initial issue in the pull request
-   message.
+Have an idea? Found a bug? See [how to contribute][contributing].
+
+## Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
 
 ## License
-See the [LICENSE](./LICENSE) file.
+
+[KINDLY][license] © [Ionică Bizău][website]
+
+[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015
+
+[website]: http://ionicabizau.net
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
+[donate-now]: http://i.imgur.com/6cMbHOC.png
+
+[contributing]: /CONTRIBUTING.md
+[docs]: /DOCUMENTATION.md

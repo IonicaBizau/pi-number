@@ -1,13 +1,13 @@
 {
   "name": "pi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Going deeper inside of the PI number.",
   "main": "lib/index.js",
   "bin": {
-      "pi": "./bin/pi"
+    "pi": "./bin/pi"
   },
   "scripts": {
-    "test": "node test"
+    "test": "node example"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
     "number",
     "math"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/pi-number/issues"
   },
