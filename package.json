@@ -1,6 +1,6 @@
 {
   "name": "pi",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Going deeper inside of the PI number.",
   "main": "lib/index.js",
   "bin": {
@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/pi-number/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/pi-number"
+  "homepage": "https://github.com/IonicaBizau/pi-number",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
