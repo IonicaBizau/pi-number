@@ -1,6 +1,6 @@
 {
   "name": "pi",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Going deeper inside of the PI number.",
   "main": "lib/index.js",
   "bin": {
@@ -32,6 +32,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
