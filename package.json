@@ -1,6 +1,6 @@
 {
   "name": "pi",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Going deeper inside of the PI number.",
   "main": "lib/index.js",
   "bin": {
@@ -40,6 +40,6 @@
     "bloggify/"
   ],
   "dependencies": {
-    "pi-digits": "^1.0.1"
+    "pi-decimals": "^2.0.0"
   }
 }
