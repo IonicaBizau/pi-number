@@ -38,5 +38,8 @@
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
-  ]
+  ],
+  "dependencies": {
+    "pi-digits": "^1.0.1"
+  }
 }
