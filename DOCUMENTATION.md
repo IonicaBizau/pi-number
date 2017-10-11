@@ -2,12 +2,12 @@
 
 You can see below the API reference of this module.
 
-### `PI(digits, includeThree)`
-Calculates the first *n* decimals of PI number.
+### `PI(n, includeThree)`
+Returns the first *n* decimals of PI number, including `3.` by default.
 
 #### Params
 
-- **Number** `digits`: The number of decimals of the PI number.
+- **Number** `n`: The number of decimals of the PI number.
 - **Boolean** `includeThree`: A flag indicating if the `"3."` snippet should be prepended or not (default: `true`).
 
 #### Return
